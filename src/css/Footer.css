@@ -1,0 +1,12 @@
+.footer-portfolio {
+    color: rgb(65, 65, 72);
+    background-color: rgb(236, 233, 205);
+    text-align: center;
+    padding-bottom: 2px;
+    border-top: 5px solid transparent; 
+    transition: border-color 0.3s ease; 
+}
+
+.footer:hover {
+    border-top-color: rgb(183, 246, 76);
+}

@@ -1,0 +1,328 @@
+
+html {
+  scroll-behavior: smooth;
+}
+#home {
+    display: flex;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.lettuce {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    width: calc(100vw);
+} 
+ 
+.headshot {
+    position: relative;
+    left: -101%;
+    z-index: 1;
+}
+@media (max-width: 768px) {
+    .headshot {
+      position: relative;
+      left: -103%;
+      top: 20%;
+    }
+    .intro {
+        margin-left: -62%;
+        margin-top: -6%;
+    }
+  }
+
+.intro {
+    position: relative;
+    left: -108%;
+    top: 9%;
+    width: 300px;
+    color: rgb(183, 246, 76);
+    font-size: 35px;
+
+}
+.title-h1 {
+    width: 300px;
+    margin-top: -20%
+}
+
+.aboutme-container {
+    padding: 150px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: 920px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    z-index: 10;
+}
+
+
+.aboutme:hover {
+    background-color: rgb(236, 233, 205);
+    scale: 1.05;
+}
+
+.aboutme{
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    animation: neon-glow 3s ease-in-out infinite;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    width: 500px;
+  }
+  @keyframes neon-glow {
+    0% {
+      border-color: rgb(183, 246, 76);
+      box-shadow: 0 0 10px rgb(183, 246, 76);
+    }
+    50% {
+      border-color: rgb(138, 113, 87);
+      box-shadow: 0 0 20px rgb(138, 113, 87);
+    }
+    100% {
+      border-color: rgb(65, 65, 72);
+      box-shadow: 0 0 10px rgb(65, 65, 72);
+    }
+  }
+
+  .salad1 {
+    display: flex;
+    width: 500px;
+    border-radius: 30px;
+    height: 765px;
+    margin-top: 30px;
+  }
+
+  #divider {
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-bottom: -15%;
+  }
+
+/* carousel */
+.carousel-item {
+    transition-duration: 0.3s;
+  }
+
+#carousel-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: -7.1%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.slides {
+    width: 50rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    padding-top: 5%;
+}
+
+#carousel-container h1{
+  background-color: rgb(138, 113, 87);
+  margin-left: 43.5%;
+  width: 13%;
+  height: 80px;
+  margin-bottom: 3%;
+  border-radius: 5px;
+  color:rgb(183, 246, 76);
+  border: 1px solid white;
+}
+
+/* Skills */
+.lettuce3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.skills-page{
+  display: flex;
+  height: 100vh;
+  overflow: hidden; 
+}
+.skills{
+  margin-top: -5%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.skills-title {
+  text-align: center;
+  padding-bottom: 5%;
+  font-size: 4rem;
+  color: rgb(65, 65, 72);
+}
+
+/* form */
+
+.contact {
+  display: flex;
+  margin-left: 28%;
+}
+
+.form {
+  height: 400px;
+  width: 600px;
+  position: relative;
+  z-index: 5;
+  background-color: rgb(236, 233, 205, .5);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 30px;
+  margin-top: 265px;
+  margin-left: 3%;;
+  
+}
+
+.salad2 {
+  height: 500px;
+  width: 800px;
+  position: absolute; 
+  transform: translateX(-10%);
+  z-index: 0;
+  margin-top: 15%; 
+
+  
+  border-radius: 30px;
+}
+
+#icon {
+  margin-left: 48%;
+  margin-top: 95px;
+  height: 100px;
+  width: 100px;
+}
+
+.form-button {
+  border-radius: 20px;
+  height: 40px;
+  font-size: 20px;
+  background-color: whitesmoke;
+}
+
+.contact-section {
+  background-color: rgb(236, 233, 205);
+  margin-top: -10%;
+  position: relative;
+  z-index: 0;
+  height: 840px;
+}
+
+.gnome1{
+  position: absolute;
+  top: 8.5%;
+  right: 65%;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+.gnome2{
+  position: absolute;
+  top: 12%;
+  right: 28%;
+  height: 150px;
+  width: 200px;
+  overflow: hidden;
+  z-index: -2;
+}
+#gnome4{
+  position: absolute;
+  top: -13%;
+  right: 18%;
+  height: 500px;
+  width: 800px;
+  overflow: hidden;
+  z-index: -2;
+}
+#gnome3{
+  position: absolute;
+  top: 30%;
+  left: 3.5%;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.pumpkin{
+  position: absolute;
+  top: 44%;
+  left: -7.5%;
+  height: 400px;
+  width: 700px;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.mushroom1{
+  position: absolute;
+  top: 17.5%;
+  left: 65%;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+  z-index: -2;
+}
+.mushroom2{
+  position: absolute;
+  top: 8%;
+  left: 65%;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  z-index: -2;
+}
+
+.flower1{
+  position: absolute;
+  bottom: -2%;
+  left: 63.5%;
+  overflow: hidden;
+  height: 800px;
+  width: 500px;
+  z-index: -2;
+}
+.flower2{
+  position: absolute;
+  bottom: 0%;
+  left: 17%;
+  overflow: hidden;
+  height: 200px;
+  width: 1000px;
+  z-index: -2;
+}
+
+.sun {
+  position: absolute;
+  z-index: -2;
+  bottom: 350px;
+  left: -19%;
+  height: 550px;
+  width: 1000px;
+  overflow: hidden;
+}
+
+.gnome-button{
+  position: absolute;
+  top: 72.4%;
+  left: 38%;
+  border-radius: 20px;
+  height: 40px;
+  font-size: 20px;
+  background-color: whitesmoke;
+  z-index: 5;
+}
