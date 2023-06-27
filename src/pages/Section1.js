@@ -9,7 +9,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 const Section1 = () => {
 
   return (
-    <div >
+    <div className="projects-page">
       <img src={salad3} alt='salad3' className="salad3"/>
       <h1 className="section-title">Projects</h1>
       <div className="work-list">

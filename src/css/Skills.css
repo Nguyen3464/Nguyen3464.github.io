@@ -1,3 +1,7 @@
+.skills-page {
+  background-color: rgb(236, 233, 205);
+}
+
 .skills {
   display: flex;
   justify-content: space-evenly;
@@ -5,4 +9,23 @@
 
 .skills-description {
   width: 300px;
+}
+
+.skills-logo {
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+
+.skills-logo-jest,
+.skills-logo-rspec,
+.skills-logo-postman,
+.skills-logo-yarn,
+.skills-logo-vscode,
+.skills-logo-trello,
+.skills-logo-slack,
+.skills-logo-zoom {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
 }
