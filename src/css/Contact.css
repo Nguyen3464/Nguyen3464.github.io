@@ -1,0 +1,149 @@
+.contact {
+    display: flex;
+    margin-left: 28%;
+  }
+  
+  .form {
+    height: 400px;
+    width: 600px;
+    position: relative;
+    z-index: 5;
+    background-color: rgb(236, 233, 205, .5);
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-top: 265px;
+    margin-left: 3%;;
+  }
+  
+  .salad2 {
+    height: 500px;
+    width: 800px;
+    position: absolute; 
+    transform: translateX(-10%);
+    z-index: 0;
+    margin-top: 15%; 
+    border-radius: 30px;
+
+  }
+
+.form-button {
+    border-radius: 20px;
+    height: 40px;
+    font-size: 20px;
+    background-color: whitesmoke;
+  }
+  
+  .contact-section {
+    background-color: rgb(236, 233, 205);
+  
+    position: relative;
+    z-index: 0;
+    height: 840px;
+  }
+  
+  .gnome1{
+    position: absolute;
+    top: 8.5%;
+    right: 65%;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+  }
+  .gnome2{
+    position: absolute;
+    top: 12%;
+    right: 28%;
+    height: 150px;
+    width: 200px;
+    overflow: hidden;
+    z-index: -2;
+  }
+  #gnome4{
+    position: absolute;
+    top: -13%;
+    right: 18%;
+    height: 500px;
+    width: 800px;
+    overflow: hidden;
+    z-index: -2;
+  }
+  #gnome3{
+    position: absolute;
+    top: 30%;
+    left: 3.5%;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    z-index: -2;
+  }
+  
+  .pumpkin{
+    position: absolute;
+    top: 44%;
+    left: -7.5%;
+    height: 400px;
+    width: 700px;
+    overflow: hidden;
+    z-index: -2;
+  }
+  
+  .mushroom1{
+    position: absolute;
+    top: 17.5%;
+    left: 65%;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    z-index: -2;
+  }
+  .mushroom2{
+    position: absolute;
+    top: 8%;
+    left: 65%;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    z-index: -2;
+  }
+  
+  .flower1{
+    position: absolute;
+    bottom: -2%;
+    left: 63.5%;
+    overflow: hidden;
+    height: 800px;
+    width: 500px;
+    z-index: -2;
+  }
+  .flower2{
+    position: absolute;
+    bottom: 0%;
+    left: 17%;
+    overflow: hidden;
+    height: 200px;
+    width: 1000px;
+    z-index: -2;
+  }
+  
+  .sun {
+    position: absolute;
+    z-index: -2;
+    bottom: 350px;
+    left: -19%;
+    height: 550px;
+    width: 1000px;
+    overflow: hidden;
+  }
+  
+  .gnome-button{
+    position: absolute;
+    top: 72.4%;
+    left: 38%;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    z-index: 5;
+  }
+  

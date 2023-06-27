@@ -1,0 +1,8 @@
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills-description {
+  width: 300px;
+}

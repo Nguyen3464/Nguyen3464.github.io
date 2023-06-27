@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
 import logo1 from '../assets/logo.jpeg';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
 
 const NavigationBar = () => {
   const [collapsed, setCollapsed] = useState(true);
   const toggleNavbar = () => setCollapsed(!collapsed);
-  const location = useLocation();
-  const isHomePage = location.pathname === '/';
 
   return (
     <div>
-      <div id="navbar">
+      <div id="navbar" className='sticky-top'>
         <NavLink to="/">
           <img src={logo1} alt="logo" className="logo-portfolio" />
         </NavLink>
@@ -29,20 +27,16 @@ const NavigationBar = () => {
                   Projects
                 </NavLink>
               </NavItem>
-              {isHomePage && (
-                <>
                 <NavItem>
-                  <a href="#gnome4" className="custom-nav-item">
+                  <NavLink to="/contact" className="custom-nav-item">
                     Contact
-                  </a>
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <a href='#carousel-container' className='custom-nav-item'>
+                  <NavLink to="/skills" className="custom-nav-item">
                     Skills
-                  </a>
+                  </NavLink>
                 </NavItem>
-                </>
-              )}
             </Nav>
           </Collapse>
         </Navbar>
