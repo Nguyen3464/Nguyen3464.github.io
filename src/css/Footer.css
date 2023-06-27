@@ -1,12 +1,27 @@
 .footer-portfolio {
     color: rgb(65, 65, 72);
-    background-color: rgb(236, 233, 205);
-    text-align: center;
+    background-color: rgb(158, 182, 119);
     padding-bottom: 2px;
-    border-top: 5px solid transparent; 
-    transition: border-color 0.3s ease; 
+    padding-top: 10px;
 }
 
-.footer:hover {
-    border-top-color: rgb(183, 246, 76);
+.links{
+    display: flex;
+    justify-content: space-evenly ;
+    padding: 2%;
 }
+
+.footer-icon {
+    color: rgb(65, 65, 72);
+}
+
+.brand-icon {
+    height: 40px;
+    width: 40px;
+    color: rgb(65, 65, 72);
+    margin-right: 10px;
+}
+.brand-icon:hover{
+    color: rgb(183, 246, 76);
+}
+

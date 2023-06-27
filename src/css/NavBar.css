@@ -4,14 +4,15 @@
   background-color: rgb(158, 182, 119);
   font-size: 25px;
   font-weight: 600;
-
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .logo-portfolio {
   display: flex;
   height: 100px;
   width: 100px;
-
   padding: 10px;
 }
 .logo-portfolio:hover {
@@ -26,7 +27,7 @@
 }
 
 .custom-nav-item::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -7px;
   left: 0;
@@ -42,38 +43,4 @@
 
 .custom-nav-item:hover::after {
   background-color: rgb(183, 246, 76);
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .logo {
-    margin-bottom: 10px;
-  }
-
-  .navbar-toggler {
-    margin-bottom: 10px;
-
-  }
-  
-  .navbar-collapse {
-    width: 100%;
-    text-align: center;
-  }
-
-  .custom-nav-item {
-    margin: 10px 0;
-  }
-
-  .toggle {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 10px;
-  }
 }

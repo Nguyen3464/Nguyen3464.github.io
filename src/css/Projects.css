@@ -1,6 +1,6 @@
 
 
-.video {
+.salad3 {
   object-fit: cover;
   width: 90%;
   height: 600px;
@@ -110,4 +110,9 @@
 
 .work:hover .layer{
   height: 100%;
+}
+
+.slamajamz {
+  width: 100%;
+  height: 100vh;
 }
