@@ -10,9 +10,8 @@ import pumpkin from "../assets/pumpkin.png";
 import sun from "../assets/sun.png";
 import mushroom1 from "../assets/mushroom1.png";
 import mushroom2 from "../assets/mushroom2.png";
+import coverletter from "../assets/coverletter.jpg"
 import { Label, Form, FormGroup, Input } from "reactstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 
 
@@ -39,7 +38,9 @@ const Contact = () => {
   return (
     <div>
 
-
+      <div className="coverletter">
+        <img src={coverletter} alt='coverletter' className="coverletter"/>
+      </div>
       <div className="contact-section">
         <div className="contact">
           <Form
@@ -69,14 +70,6 @@ const Contact = () => {
           </Form>
           <img src={salad2} alt="salad picture 2" className="salad2" />
         </div>
-        <a href="#navbar" className="top-link">
-          <FontAwesomeIcon
-            icon={faAngleUp}
-            bounce
-            style={{ color: "#b7f64c" }}
-            id="icon"
-          />
-        </a>
         <div className="gnome-garden">
           <motion.img
             src={gnome1}

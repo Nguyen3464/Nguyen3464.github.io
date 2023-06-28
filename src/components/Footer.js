@@ -1,8 +1,8 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -23,11 +23,18 @@ const Footer = () => {
           <h3>©️ Created by Nguyen Nguyen</h3>
           <a href="https://github.com/Nguyen3464" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} className='brand-icon'/>
-
           </a>
           <a href="https://www.linkedin.com/in/nguyen-nguyen3464/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} className='brand-icon'/>
           </a>
+          <a href="#navbar" className="top-link">
+          <FontAwesomeIcon
+            icon={faAngleUp}
+            bounce
+            style={{ color: "#b7f64c" }}
+            id="icon"
+          />
+        </a>
         </div>
       </div>
     </div>
