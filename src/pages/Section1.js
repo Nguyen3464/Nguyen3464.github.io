@@ -1,16 +1,15 @@
 import React from "react";
 import sj from "../assets/SJ.png";
 import apartment from "../assets/apartment.png";
-import shoe11 from "../assets/shoe11.png"
-import salad3 from "../assets/salad3.jpg"
+import shoe11 from "../assets/shoe11.png";
+import salad3 from "../assets/salad3.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const Section1 = () => {
-
   return (
     <div className="projects-page">
-      <img src={salad3} alt='salad3' className="salad3"/>
+      <img src={salad3} alt="salad3" className="salad3" />
       <h1 className="section-title">Projects</h1>
       <div className="work-list">
         <div className="work">
@@ -53,7 +52,7 @@ const Section1 = () => {
               craftsmanship and impeccable design that transcends trends and
               stands the test of time.
             </p>
-            <a href="https://github.com/Nguyen3464/Gracefulgents">
+            <a href="https://username.github.io/GracefulGents/public/index.html">
               <FontAwesomeIcon icon={faLink} className="link" />
             </a>
           </div>
