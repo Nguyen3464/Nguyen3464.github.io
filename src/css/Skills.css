@@ -1,31 +1,190 @@
 .skills-page {
   background-color: rgb(236, 233, 205);
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-left: 15%;
 }
 
 .skills {
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+  margin: 3%;
 }
 
 .skills-description {
-  width: 300px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  top: 20%;
+}
+
+.skills-description h3 {
+  position: absolute;
+  text-align: center;
+  left: 21%;
+}
+
+.railsh3 {
+  margin-left: -5%;
+}
+
+.railsh4 {
+  margin-left: -20%;
+}
+
+.rails5 {
+  margin-left: 10%;
 }
 
 .skills-logo {
-  height: 250px;
-  width: 250px;
+  position: absolute;
+  height: 800px;
+  width: 800px;
   object-fit: contain;
+  overflow: hidden;
+  top: -140%;
+  left: -145%;
 }
 
-.skills-logo-jest,
-.skills-logo-rspec,
-.skills-logo-postman,
-.skills-logo-yarn,
-.skills-logo-vscode,
-.skills-logo-trello,
-.skills-logo-slack,
-.skills-logo-zoom {
-  height: 50px;
-  width: 50px;
+.skills-logo-react {
+  position: absolute;
+  height: 900px;
+  width: 900px;
   object-fit: contain;
+  overflow: hidden;
+  top: -160%;
+  left: -180%;
+}
+
+.skills-logo-rubyonrails,
+.skills-logo-activerecord {
+  position: absolute;
+  height: 1000px;
+  width: 1000px;
+  object-fit: contain;
+  overflow: hidden;
+  top: -180%;
+  left: -190%;
+}
+
+.skills-logo-activerecord,
+.skills-logo-slack {
+  margin-left: -10%;
+}
+
+.skills-logo-html, 
+.skills-logo-css,
+.skills-logo-ruby,
+.skills-logo-git {
+  position: absolute;
+  height: 800px;
+  width: 800px;
+  object-fit: contain;
+  overflow: hidden;
+  top: -140%;
+  left: -162%;
+}
+
+.skills-logo-css,
+.skills-logo-rspec {
+  margin-left: -20%;
+}
+
+.skills-logo-git {
+  margin-left: -12%;
+}
+
+
+.skills-logo-trello,
+.skills-logo-slack {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  object-fit: contain;
+  overflow: hidden;
+  top: 25%;
+  left: 15%
+}
+
+.skills-logo-yarn {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  object-fit: contain;
+  overflow: hidden;
+  top: 25%;
+  left: 5%
+}
+
+.skills-logo-vscode,
+.skills-logo-jest,
+.skills-logo-rspec {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+  overflow: hidden;
+  top: 30%;
+  left: 10%
+}
+
+.skills-logo-postman {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+  overflow: hidden;
+  top: 30%;
+  left: 17%
+}
+
+.skills-logo-github,
+.skills-logo-macos {
+  position: absolute;
+  height: 300px;
+  width: 300;
+  object-fit: contain;
+  overflow: hidden;
+  top: -10%;
+  left: -90%
+}
+
+
+.skills-logo-notion{
+  position: absolute;
+  height: 300px;
+  width: 300;
+  object-fit: contain;
+  overflow: hidden;
+  top: -10%;
+  left: -80%
+}
+
+.skills-logo-terminal{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+  overflow: hidden;
+  top: -20%;
+  left: -40%
+}
+
+.skills-logo-zoom {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+  overflow: hidden;
+  top: 18%;
+  left: -65%
+}
+
+.skills-logo-zoom {
+  margin-top: -25%;
+  margin-left: 40%;
 }

@@ -3,9 +3,11 @@ import home from "../assets/home.jpeg"
 import headshot from "../assets/headshot.png"
 import salad1 from "../assets/salad1.jpg"
 import divider from "../assets/divider.png"
+import resume from "../assets/resume.png"
 import Plx from "react-plx"
 import { motion } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
+
 
 
 const Home = (args) => {
@@ -67,6 +69,9 @@ const Home = (args) => {
             transition={{ duration: 3 }}
             />
           </motion.div>
+        </div>
+        <div className='resume'>
+          <img src={resume} alt='resume' className='resume'/>
         </div>
   </div>
   )
