@@ -53,7 +53,7 @@ const Section1 = () => {
               craftsmanship and impeccable design that transcends trends and
               stands the test of time.
             </p>
-            <a href="/shoeapp">
+            <a href="submodules/Gracefulgents/index.html">Link to Another Application
               <FontAwesomeIcon icon={faLink} className="link" />
             </a>
           </div>
