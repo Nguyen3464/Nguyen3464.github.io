@@ -52,7 +52,7 @@ const Section1 = () => {
               craftsmanship and impeccable design that transcends trends and
               stands the test of time.
             </p>
-            <a href="https://username.github.io/GracefulGents/public/index.html">
+            <a href="https://nguyen3464.github.io/GracefulGents/public/index.html">
               <FontAwesomeIcon icon={faLink} className="link" />
             </a>
           </div>
