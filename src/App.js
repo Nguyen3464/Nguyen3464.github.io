@@ -14,8 +14,6 @@ import "./css/Projects.css"
 import "./css/Contact.css"
 import "./css/Skills.css"
 
-
-
 const App = () => {
   return (
     <div>
